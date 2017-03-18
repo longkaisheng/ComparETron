@@ -1,0 +1,17 @@
+{
+  "name": "eecomparefiles",
+  "version": "0.0.1",
+  "repository": "https://github.com/Juan1ll0/eecomparefiles.git"
+  "description": "App to compare and merge two files",
+  "main": "app/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "electron",
+    "merge",
+    "elm"
+  ],
+  "author": "Juan Ignacio Fernandez Diez",
+  "license": "ISC"
+}
