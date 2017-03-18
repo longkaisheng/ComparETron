@@ -1,7 +1,7 @@
 {
   "name": "eecomparefiles",
   "version": "0.0.1",
-  "repository": "https://github.com/Juan1ll0/eecomparefiles.git"
+  "repository": "https://github.com/Juan1ll0/eecomparefiles.git",
   "description": "App to compare and merge two files",
   "main": "app/main.js",
   "scripts": {
