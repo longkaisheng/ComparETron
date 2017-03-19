@@ -5,7 +5,10 @@
   "description": "App to compare and merge two files",
   "main": "app/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "elm": "elm make app/Main.elm --output build/elm.js || true",
+    "elm:watch": "chokidar '**/*.elm' -c 'npm run elm'",
+    "start": "electron .",
+    "watch": "npm run start & npm run elm:watch & wait"
   },
   "keywords": [
     "electron",
@@ -13,5 +16,8 @@
     "elm"
   ],
   "author": "Juan Ignacio Fernandez Diez",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chokidar": "^1.6.1"
+  }
 }
